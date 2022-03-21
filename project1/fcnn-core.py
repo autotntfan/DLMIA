@@ -44,7 +44,7 @@ def FCNN(layer_num=1):
 
 To start training,  call the [`model.fit`](https://www.tensorflow.org/api_docs/python/tf/keras/Model#fit) method—so called because it "fits" the model to the training data:
 """
-layer_num = 3
+layer_num = 1
 model = FCNN(layer_num)
 model.fit(x_train, y_train, epochs=10)
 
